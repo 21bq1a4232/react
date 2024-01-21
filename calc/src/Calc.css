@@ -1,0 +1,40 @@
+.Calc {
+    width: 450px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    background-color: #000;
+    border-radius: 20px;
+  }
+  
+  .display {
+    background-color: hsl(0, 0%, 30%);
+    margin-top: 40px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    color: #fff;
+    font-size: 2em;
+    border-radius: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    margin: 3px;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 45%);
+    color: #fff;
+    border: none;
+    padding: 20px;
+    font-size: 2em;
+  }
+  button:hover{
+    background-color: hsl(56, 96%, 48%);
+  }
+  button:active{
+    background-color: #000;
+  }
